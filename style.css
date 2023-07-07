@@ -30,4 +30,33 @@
 .list_item:hover {
     color: darksalmon;
 }
+.banner_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-image: url(image/1920x1080-vanilla-solid-color-background.jpg),linear-gradient(45deg,rgb(253, 251, 250),rgb(253, 248, 242));
 
+}
+.banner_photo {
+    width: 300px;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 8px 16px;
+    background-color: black;
+    color: antiquewhite;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    background-size: cover;
+}
+.btn:hover {
+    background-color: antiquewhite;
+    color: black;
+}
