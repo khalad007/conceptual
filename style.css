@@ -48,7 +48,7 @@
 }
 
 .btn {
-    padding: 8px 16px;
+    padding: 10px;
     background-color: black;
     color: antiquewhite;
     font-size: 17px;
@@ -59,4 +59,26 @@
 .btn:hover {
     background-color: antiquewhite;
     color: black;
+}
+
+
+.about_title {
+    text-align: center;
+    padding: 15px 0 15px 0;
+    font-size: 45px;
+}
+.about_container {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    
+}
+.about_head {
+    font-size: 35px;
+    
+}
+
+.about_info {
+    padding: 30px;
+    margin: 10px;
 }
