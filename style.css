@@ -1,0 +1,33 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo_edit {
+    width: 120px;
+}
+
+.container {
+    background: antiquewhite;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.menus {
+    display: flex;
+}
+
+.list_item {
+    margin: 10px;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.list_item:hover {
+    color: darksalmon;
+}
+
