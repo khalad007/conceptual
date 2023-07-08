@@ -8,7 +8,7 @@
 }
 
 .container {
-    background: antiquewhite;
+    background: rgb(248, 241, 233);
     display: flex;
     align-items: center;
     padding: 15px;
@@ -66,6 +66,7 @@
     text-align: center;
     padding: 15px 0 15px 0;
     font-size: 45px;
+    margin: 10px;
 }
 .about_container {
     justify-content: space-around;
@@ -81,4 +82,23 @@
 .about_info {
     padding: 30px;
     margin: 10px;
+}
+.service_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.service_div {
+    width: 245px;
+    height: 300px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.service_logo {
+    height: 80px;
 }
